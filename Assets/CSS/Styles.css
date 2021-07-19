@@ -149,21 +149,22 @@ img{
 .home__social-icon:hover{
     color: var(--first-color);
 }
-.home__img{
+.home__img {
+
     position:absolute;
     right: 0;
     bottom: 0;
-    height: auto;
-    width: 295px; 
 }
 .home__img img{
-    width: 500px;
-    position:absolute;
-    right: 0;
-    bottom:230px;
-    border-radius: 8rem;
+
+    /* position:absolute;
+    right: 25%;
+    bottom:0; */
+    border-radius: 50%;
     height: auto;
-     box-shadow: 0 10px 36px rgba(0,0,0,.25);
+    box-shadow: 0 10px 36px rgba(0,0,0,.25);
+    margin-left: auto;
+    margin-right: auto;
 }
 /*-----------Button------------ */
 .button{
@@ -202,6 +203,7 @@ img{
     align-items: center;
     font-weight: var(--font-semi);
 }
+
 @media screen and (max-width: 768px){
     .nav__menu{
         position: fixed;
@@ -213,10 +215,13 @@ img{
         background-color: var(--second-color);
         transition: .5s;
     }
-    .home__img img{
-        width: 160px;
-        right: 20px;
-        bottom: 193px;
+    .home__img{
+        margin-right: 20px;
+        width: 265px;
+        margin: auto;
+         bottom: 55%;
+    }
+    .home__img img{     
         box-shadow: 0 10px 36px rgba(0,0,0,.25);
         
     }
@@ -270,6 +275,26 @@ img{
   color: var(--second-color);
   font-size: 1.5rem;
   cursor: pointer;
+}
+@media screen and (max-width: 500px){
+      .home__img {
+        width: 160px;
+        right: 40px;
+        bottom: 45%;
+    }
+    .home__img img{
+         box-shadow: 0 10px 36px rgba(0,0,0,.25);
+    }
+}
+@media screen and (max-width: 400px){
+      .home__img {
+        width: 160px;
+        right: 20px;
+        bottom: 30%;
+    }
+    .home__img img{
+           box-shadow: 0 10px 36px rgba(0,0,0,.25);
+    }
 }
 /*-----------Active menu------------ */
 .active::after{
@@ -475,6 +500,7 @@ body{
   }
   .home__img{
     right: 10%;
+    width: 350px;
   }
 }
 
