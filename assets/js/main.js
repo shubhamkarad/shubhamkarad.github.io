@@ -36,22 +36,22 @@ const sr = ScrollReveal({
 //-----------Scroll Home Animation--------------
 sr.reveal('.home_title', {});
 sr.reveal('.button', { delay: 100 });
-sr.reveal('.home__img img', { delay: 200 });
-sr.reveal('.home__social-icon', { interval: 150 });
-sr.reveal('.fadeIn', { interval: 150 });
+sr.reveal('.home__img img', { delay: 80 });
+sr.reveal('.home__social-icon', { interval: 80 });
+sr.reveal('.fadeIn', { interval: 100 });
 
 //-----------Scroll About Animation--------------
-sr.reveal('.about__img', { delay: 200 });
-sr.reveal('.about__subtitle', { delay: 150 });
-sr.reveal('.about__text', { delay: 200 });
+sr.reveal('.about__img', { delay: 80 });
+sr.reveal('.about__subtitle', { delay: 100 });
+sr.reveal('.about__text', { delay: 100 });
 
 //-----------Scroll About Animation--------------
 sr.reveal('.skills__subtitle', {});
-sr.reveal('.skills__text', { interval: 200 });
-sr.reveal('.skills__img', { interval: 600 });
+sr.reveal('.skills__text', { interval: 100 });
+sr.reveal('.skills__img', { interval: 100 });
 
 //-----------Scroll Work Animation--------------
-sr.reveal('.first__col a', { interval: 100 })
+sr.reveal('.first__col a', { interval: 80 })
 
 function darkMode() {
     const element = document.body;
